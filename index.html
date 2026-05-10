@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="APTO POS: ventas, inventario, caja, compras, clientes y reportes. Hecho para negocios que necesitan velocidad y control."
+    />
+    <title>APTO POS — Sistema de ventas</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container topbar-inner">
+        <a class="brand" href="#inicio" aria-label="APTO POS">
+          <span class="brand-mark" aria-hidden>APTO</span>
+          <span class="brand-sub">POS</span>
+        </a>
+        <nav class="nav">
+          <a href="#modulos">Módulos</a>
+          <a href="#beneficios">Beneficios</a>
+          <a href="#faq">Preguntas</a>
+          <a class="nav-cta" href="#contacto">Solicitar demo</a>
+        </nav>
+        <button class="nav-toggle" type="button" aria-label="Abrir menú" data-nav-toggle>
+          ☰
+        </button>
+      </div>
+      <div class="container nav-mobile" data-nav-mobile hidden>
+        <a href="#modulos">Módulos</a>
+        <a href="#beneficios">Beneficios</a>
+        <a href="#faq">Preguntas</a>
+        <a class="nav-cta" href="#contacto">Solicitar demo</a>
+      </div>
+    </header>
+
+    <main id="inicio">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="pill">Sistema de ventas • Inventario • Caja</p>
+            <h1>
+              Controla tu negocio con <span class="accent">APTO POS</span>
+            </h1>
+            <p class="lead">
+              Registra ventas rápido, maneja inventario, compras y cuentas por cobrar. Reportes claros para decidir mejor.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#contacto">Quiero una demo</a>
+              <a class="btn btn-ghost" href="#modulos">Ver módulos</a>
+            </div>
+            <div class="trust">
+              <div class="trust-item">
+                <span class="trust-kpi">Rápido</span>
+                <span class="trust-label">para caja</span>
+              </div>
+              <div class="trust-item">
+                <span class="trust-kpi">Modular</span>
+                <span class="trust-label">por tipo de negocio</span>
+              </div>
+              <div class="trust-item">
+                <span class="trust-kpi">Reportes</span>
+                <span class="trust-label">ventas/compras/cxc</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-card" aria-label="Vista previa">
+            <div class="hero-card-top">
+              <div class="dot red"></div>
+              <div class="dot yellow"></div>
+              <div class="dot green"></div>
+              <span class="hero-card-title">Dashboard</span>
+            </div>
+            <div class="mock-grid">
+              <div class="tile t-ventas">
+                <div class="tile-ic">🛒</div>
+                <div class="tile-tx">Ventas</div>
+              </div>
+              <div class="tile t-inv">
+                <div class="tile-ic">📦</div>
+                <div class="tile-tx">Inventario</div>
+              </div>
+              <div class="tile t-caja">
+                <div class="tile-ic">💵</div>
+                <div class="tile-tx">Caja</div>
+              </div>
+              <div class="tile t-compras">
+                <div class="tile-ic">📥</div>
+                <div class="tile-tx">Compras</div>
+              </div>
+              <div class="tile t-clientes">
+                <div class="tile-ic">👥</div>
+                <div class="tile-tx">Clientes</div>
+              </div>
+              <div class="tile t-reportes">
+                <div class="tile-ic">📈</div>
+                <div class="tile-tx">Reportes</div>
+              </div>
+            </div>
+            <p class="mock-note">
+              Interfaz limpia, botones grandes y flujo pensado para operar rápido.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="modulos" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Módulos principales</h2>
+            <p>Activa solo lo que necesitas. Ideal para comercios, ferreterías, retail u oficina con inventario.</p>
+          </div>
+          <div class="cards">
+            <article class="card">
+              <div class="card-ic">🛒</div>
+              <h3>Ventas</h3>
+              <p>Facturación ágil, múltiples métodos de pago y control por sucursal.</p>
+            </article>
+            <article class="card">
+              <div class="card-ic">📦</div>
+              <h3>Inventario</h3>
+              <p>Kardex, stock por sucursal y alertas de mínimos.</p>
+            </article>
+            <article class="card">
+              <div class="card-ic">💵</div>
+              <h3>Caja</h3>
+              <p>Apertura/cierre, arqueos y control de efectivo.</p>
+            </article>
+            <article class="card">
+              <div class="card-ic">📥</div>
+              <h3>Compras</h3>
+              <p>Recepciones, devoluciones y proveedor a detalle.</p>
+            </article>
+            <article class="card">
+              <div class="card-ic">👥</div>
+              <h3>Clientes & CxC</h3>
+              <p>Crédito, saldos, abonos y estado de cuenta.</p>
+            </article>
+            <article class="card">
+              <div class="card-ic">📈</div>
+              <h3>Reportes</h3>
+              <p>Ventas, inventario valorizado, compras, devoluciones y auditoría.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="beneficios" class="section section-alt">
+        <div class="container">
+          <div class="section-head">
+            <h2>Beneficios</h2>
+            <p>Menos fricción operativa, más control y visibilidad.</p>
+          </div>
+          <div class="split">
+            <ul class="checklist">
+              <li><strong>Interfaz rápida</strong> y fácil de entrenar.</li>
+              <li><strong>Multi-sucursal</strong> con control por usuario.</li>
+              <li><strong>Roles y permisos</strong> por módulo.</li>
+              <li><strong>Reportes exportables</strong> para contabilidad y análisis.</li>
+              <li><strong>Configuración por negocio</strong> (módulos visibles, reportes visibles).</li>
+            </ul>
+            <div class="sidebox">
+              <h3>¿Quieres verlo funcionando?</h3>
+              <p>Te mostramos el flujo completo: venta → caja → inventario → reportes.</p>
+              <a class="btn btn-primary" href="#contacto">Agendar demo</a>
+              <p class="sidebox-note">Respuesta rápida por WhatsApp o correo.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Preguntas frecuentes</h2>
+            <p>Lo esencial antes de empezar.</p>
+          </div>
+          <div class="faq">
+            <details>
+              <summary>¿Se puede usar por sucursales?</summary>
+              <p>Sí. Puedes operar por sucursal y limitar accesos por rol y permisos.</p>
+            </details>
+            <details>
+              <summary>¿Puedo activar/desactivar módulos?</summary>
+              <p>Sí. El sistema es modular y puedes definir qué se muestra en el menú.</p>
+            </details>
+            <details>
+              <summary>¿Funciona en red local?</summary>
+              <p>Sí. Puedes ejecutar el servidor en tu red y acceder desde varias PCs.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacto" class="section section-cta">
+        <div class="container cta">
+          <div class="cta-copy">
+            <h2>Solicita una demo</h2>
+            <p>
+              Dinos tu tipo de negocio y cuántas sucursales tienes. Te guiamos con la mejor configuración.
+            </p>
+          </div>
+          <div class="cta-actions">
+            <a class="btn btn-primary" data-whatsapp href="#">WhatsApp</a>
+            <a class="btn btn-ghost" data-email href="#">Correo</a>
+          </div>
+          <p class="cta-note">
+            Personaliza estos enlaces en <code>apto_marketing/script.js</code>.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p class="footer-brand"><strong>APTO POS</strong> — Sistema de ventas</p>
+        <p class="footer-meta">© <span data-year></span> • Hecho para operar rápido y con control.</p>
+      </div>
+    </footer>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>
+
