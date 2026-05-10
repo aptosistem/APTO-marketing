@@ -17,7 +17,7 @@
   }
 
   // Personaliza estos valores para tu negocio
-  const WHATSAPP_NUMBER = "18098348429"; // ej: 18095551234 (sin +)
+  const WHATSAPP_NUMBER = "18098348428"; // ej: 18095551234 (sin +)
   const EMAIL = "aptosistem@gmail.com";
 
   const wa = document.querySelector("[data-whatsapp]");
